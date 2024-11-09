@@ -1,4 +1,5 @@
 .capability-card {
+    height: 100%;
     padding: 32px;
     display: flex;
     flex-direction: column;
@@ -8,7 +9,7 @@
 }
 
 .capability-card--small {
-    height: 100%;
+    padding: 32px 32px 20px;
     align-items: center;
     gap: 25px;
 }
@@ -52,6 +53,7 @@
 .capability-card--small .capability-card__text {
     align-items: center;
     text-align: center;
+    gap: 8px;
 } 
 
 .capability-card--dark .capability-card__text {
@@ -89,6 +91,11 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 147%;
+}
+
+.capability-card--small .capability-card__feature {
+    font-size: 14px;
+    line-height: 142%;
 }
 
 .capability-card--small .capability-card__name {
