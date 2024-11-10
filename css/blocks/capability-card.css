@@ -98,11 +98,6 @@
     line-height: 142%;
 }
 
-.capability-card--small .capability-card__name {
-    font-size: 20px;
-    line-height: 120%;
-} 
-
 .capability-card__image {
     width: 280px;
     height: 180px;
